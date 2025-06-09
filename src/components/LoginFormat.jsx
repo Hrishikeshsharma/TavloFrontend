@@ -72,8 +72,7 @@ function LoginFormat({ url, logintype, to, next }) {
         />
 
         <p className="already">
-          Don&apos;t have an account?{" "}
-          <a href={`https://tavloserver.onrender.com${to}`}>Register now</a>
+          Don&apos;t have an account? <a href={`${to}`}>Register now</a>
         </p>
 
         <button type="submit" className="button">
